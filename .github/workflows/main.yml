@@ -17,7 +17,7 @@ jobs:
       
       - run: npm install -g eas-cli@latest
       
-      - run: eas init --scope individual
+      - run: eas init --id tabungan-siswa-app
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
       
